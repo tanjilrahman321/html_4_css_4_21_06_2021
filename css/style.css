@@ -1,0 +1,587 @@
+
+
+body{
+	font-family: arial;
+}
+
+ /*Header Section Start*/
+
+.header .logo img{
+	width: 120px;
+}
+
+.header{
+	overflow: hidden;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.logo{
+	float: left;
+}
+
+.menubar{
+	margin-top: 16px;
+	float: right;
+}
+
+.menubar nav a{
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	padding: 15px 20px;
+    background: #f39720;
+    border-radius: 5px;
+}
+
+/*Header Section End*/
+
+/*Banner Section Start*/
+
+.banner{
+	background-image: url("../img/res_banner.jpg");
+    width: 100%;
+    height: 650px;
+    background-size: 100% 100%;
+
+}
+
+ /*Banner Section End*/
+
+ /*About sectin Start*/
+
+.about{
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+
+.profile_pic{
+	float: left;
+	width: 30%;
+	min-height: 100px;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+
+.description{
+	float: right;
+	width: 60%;
+	min-height: 100px;
+	margin-top: 170px;
+	margin-right: 40px;
+}
+
+ /*About sectin End*/
+
+ /*Service Section Start*/
+
+.service{
+	overflow: hidden;
+	background-color: lightcyan;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+}
+
+.single_service{
+	float: left;
+	width: 27%;
+	background-color: lightgrey;
+	margin-left: 60px;
+	padding: 25px 12px;
+}
+
+.service p{
+	padding-bottom: 20px;
+}
+
+.service_btn{
+	text-decoration: none;
+	font-family: arial;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	padding: 12px 10px;
+    background: #f39720;
+    border-radius: 5px;
+}
+
+ /*Service Section End*/
+
+
+
+/*Contact Section Start*/
+
+.contact{
+	padding-top: 60px; 
+	overflow: hidden;
+	background-color: skyblue;
+	padding-bottom: 60px;
+}
+
+.map{
+	float: left;
+	width: 50%;
+	height: 400px;
+	margin-left: 60px;
+}
+
+.form{
+	float: right;
+	width: 40%;
+	margin-top: 60px;
+}
+
+.form .text_field{
+	color: black;
+	padding: 7px;
+	width: 500px;
+	border-radius: 30px;
+	margin: 5px;
+	background-color: wheat;
+	font-size: 16px;
+}
+
+.contact .submit_btn{
+	text-decoration: none;
+	font-family: arial;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	padding: 12px 10px;
+    background: green;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+}
+
+.contact .reset_btn{
+	text-decoration: none;
+	font-family: arial;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	padding: 12px 10px;
+    background: red;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+}
+
+
+/*Contact Section End*/
+
+/*Footrt Section Start*/
+
+.footer{
+	background-color: #2d2d2d;
+	text-align: center;
+	padding: 20px 0;
+	color: white
+}
+
+.footer a{
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+}
+
+.footer p{
+	color: white;
+	font-size: 13px;
+}
+
+/*Footrt Section End*/
+
+/*First Web Layout Done*/
+
+/*second web layout Start*/
+
+.head{
+	overflow: hidden;
+	background-color: black;
+	padding: 18px 0px 1px 0px;
+}
+
+.logoimg img{
+	width: 120px;
+}
+
+.logoimg{
+	float: left;
+	width: 25%;
+}
+
+.navbar{
+	float: left;
+	width: 50%;
+	margin-top: 12px;
+}	
+
+.navbar nav a{
+	text-decoration: none;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	padding: 12px 16px;
+    background-color: #10b9d4;
+    border-radius: 5px;
+}
+
+.searchbar{
+	float: right;
+	width: 25%;
+}
+
+.searchbar input{
+	padding: 12px 10px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+.searchbar button{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	padding: 12px 16px;
+    background-color: #10b9d4;
+    border-radius: 5px;
+    border:  none;
+}
+
+/*second web service section start*/
+
+.servicesec{
+    overflow: hidden;
+    text-align: center;
+    background-color: lightseagreen;
+    padding-bottom: 60px;
+   
+}
+
+.category{
+	float: left;
+	width: 30%;	
+}
+
+.video{
+	float: left;
+	width: 30%;	
+}
+
+.subject{
+	float: left;
+	width: 30%;
+}	
+
+.servicesec .myvideo{
+	width: 100%;
+	height: 400px;
+	margin-left: 65px;
+}
+
+.servicesec .category{
+	margin-top: 50px;
+}
+
+.servicesec .subject{
+	margin-top: 50px;
+	margin-left: 90px;
+}
+
+.servicesec li{
+	background-color: wheat;
+	padding: 10px;
+	margin-top: 10px;
+	list-style: none;
+}
+
+.googlemap{
+	width: 100%;
+	height: 400px;
+}
+
+/*Thir Web layout Start*/
+
+/*Logo Section*/
+.logoarea{
+	background-color: orange;
+	margin-bottom: 12px	;
+}
+
+.logoarea .thirdlogo {
+	text-align: center;
+	padding: 25px 0;
+}
+
+.logoarea .thirdlogo p{
+	border: 3px solid black;
+	display: inline;
+	padding: 16px;
+	border-radius: 30px;
+}
+
+
+/*Menubar Section*/
+
+.thirdmenu{
+	background-color: #D83616;
+}
+
+.thirdmenu .thirdnav{
+	text-align: center;
+}
+
+.thirdmenu .thirdnav nav a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	background-color: #D83616;
+	padding: 12px 10px;
+}
+
+/*main section*/
+
+.mainsection{
+	background-color: #2B3B54;
+	color: white;
+	margin-top: 11px;
+	padding: 60px 0px 60px 0px;
+	text-align: center;
+
+}
+
+.middle{
+	overflow: hidden;
+}
+
+.leftside{
+	float: left;
+	width: 30%;
+}
+
+.middleside{
+	float: left;
+	width: 30%;
+	margin-left: 70px;
+}
+
+.rightside{
+	float: left;
+	width: 20%;
+	margin-left: 90px;
+}
+
+.rightside h3{
+	margin-left: 120px;
+}
+
+.mainsection li{
+	list-style: none;
+}
+
+.leftside li{
+	background-color: white;
+	margin-top: 10px;
+	width: 320px;
+	padding: 20px;
+	color: black;
+}
+
+.rightside li{
+	background-color: white;
+	margin-top: 10px;
+	width: 320px;
+	padding: 20px;
+	color: black;
+}
+
+.middleside .youtubevideo{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 40px;
+}
+
+.mainsection .middle h3{
+	display: inline;
+	
+}
+
+.mainsection .middle .middleside .seconddesc a{
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	padding: 15px 20px;
+    background: #f39720;
+    border-radius: 5px;
+}
+
+.mainsection .seconddesc h3{
+	margin-bottom: 50px;
+}
+
+
+/*Fourth Web Layout start*/
+
+.body{
+	background-color: rgb(109, 109, 109);
+}
+
+.container{
+	width: 1200px;
+    margin: 0 auto;
+    background: #ddd;
+    border: 2px solid black;
+    font-family: Arial;
+}
+
+
+.headimage{
+	background-image: url("../img/header.jpg");
+	background-size: 1200px 180px;
+	width: 1200px;
+	height: 180px;
+}
+
+.fourthmenu{
+	text-align: center;
+	 background-color:  #5F5F5F;
+	 overflow: hidden;
+	 height: 50px;
+}
+
+
+.fourthmenu .bar nav a{
+	text-decoration: none;
+	background-color: white;
+	padding: 12px 15px;
+	color: black;
+	margin-top: 4px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.blogcontain{
+	overflow: hidden;
+}
+
+.blogs{
+	float: left;
+	width: 65%;
+	border: 2px solid black;
+	padding: 20px;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+
+}
+
+.recentblogs{
+	float: right;
+	width: 30%;
+	border: 2px solid black;
+	padding: 20px 7px;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+}
+
+.newsbtn{
+	text-decoration: none;
+	text-align: center;
+	background-color: green;
+	padding: 8px 8px;
+	color: white;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+/*Fifth Web Layout*/
+
+.fifthhead{
+	background-color: red;
+	height: 100px;
+	width: 100%;
+}
+
+.wrapper{
+	overflow: hidden;
+}
+
+.leftmenu{
+	float: left;
+	width: 20%;
+	background-color: yellow;
+	height: 600px;
+}
+
+.maincontent{
+	float: right;
+	width: 80%;
+	overflow: hidden;
+}
+
+.maincontent .desccont{
+	background-color: blue;
+	height: 400px;
+}
+
+.maincontent .smallcont .small{
+	float: left;
+	width: 25%;
+	height: 200px;
+}
+
+.maincontent .smallcont .one{
+	background-color: #408080;
+}
+
+.maincontent .smallcont .two{
+	background-color: #FF0080;
+}
+
+.maincontent .smallcont .three{
+	background-color: #808000;
+}
+
+.maincontent .smallcont .four{
+	background-color: #4EA3D6;
+}
+
+.wrapper .leftmenu li{
+	list-style-type: none;
+	margin-top: 60px;
+	margin-right: 40px;
+}
+
+.wrapper .leftmenu{
+	text-align: center;
+}
+
+.wrapper .leftmenu a{
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #C0C0C0;
+	letter-spacing: 2px;
+	color: black;
+	padding: 20px 16px;
+	width: 100%;
+}
